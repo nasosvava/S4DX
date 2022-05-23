@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b647facb-0022-4916-b4e6-550c9264aa92" name="Changes" comment="S4DX" />
+    <list default="true" id="b647facb-0022-4916-b4e6-550c9264aa92" name="Changes" comment="S4DX">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Finder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Finder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FinderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FinderTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +51,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.FinderTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -62,6 +66,15 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="S4DX_Coding_Challenge" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="S4DX_Coding_Challenge" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FinderTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,23 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinderTest.givenHugeNumberOfStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="S4DX_Coding_Challenge" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FinderTest" />
-      <option name="METHOD_NAME" value="givenHugeNumberOfStrings" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FinderTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FinderTest.findNotFoundWordSuccessTest" />
         <item itemvalue="JUnit.FinderTest.findNotSuccessTest" />
         <item itemvalue="JUnit.FinderTest.findSuccessTest" />
-        <item itemvalue="JUnit.FinderTest.givenHugeNumberOfStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653340786847</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="S4DX">
+      <created>1653341432987</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653341432987</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
