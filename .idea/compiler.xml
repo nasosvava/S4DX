@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="S4DX_Coding_Challenge" />
+        <module name="S4DXCodingChallenge" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="S4DX_Coding_Challenge" target="11" />
+      <module name="S4DXCodingChallenge" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

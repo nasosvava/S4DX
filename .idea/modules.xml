@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/S4DX_Coding_Challenge.iml" filepath="$PROJECT_DIR$/S4DX_Coding_Challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S4DXCodingChallenge.iml" filepath="$PROJECT_DIR$/S4DXCodingChallenge.iml" />
     </modules>
   </component>
 </project>

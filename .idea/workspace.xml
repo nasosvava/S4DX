@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b647facb-0022-4916-b4e6-550c9264aa92" name="Changes" comment="S4DX">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Finder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Finder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FinderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FinderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/S4DX_Coding_Challenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/S4DXCodingChallenge.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +63,13 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="S4DX_Coding_Challenge" />
+      <module name="S4DXCodingChallenge" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="FinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="S4DX_Coding_Challenge" />
+      <module name="S4DXCodingChallenge" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FinderTest" />
       <option name="TEST_OBJECT" value="class" />
@@ -80,7 +78,7 @@
       </method>
     </configuration>
     <configuration name="FinderTest.findNotFoundWordSuccessTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="S4DX_Coding_Challenge" />
+      <module name="S4DXCodingChallenge" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FinderTest" />
       <option name="METHOD_NAME" value="findNotFoundWordSuccessTest" />
@@ -90,7 +88,7 @@
       </method>
     </configuration>
     <configuration name="FinderTest.findNotSuccessTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="S4DX_Coding_Challenge" />
+      <module name="S4DXCodingChallenge" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FinderTest" />
       <option name="METHOD_NAME" value="findNotSuccessTest" />
@@ -100,11 +98,24 @@
       </method>
     </configuration>
     <configuration name="FinderTest.findSuccessTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="S4DX_Coding_Challenge" />
+      <module name="S4DXCodingChallenge" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FinderTest" />
       <option name="METHOD_NAME" value="findSuccessTest" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="S4DXCodingChallenge" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="S4DXCodingChallenge" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
