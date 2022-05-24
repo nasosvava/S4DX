@@ -1,4 +1,5 @@
 import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -29,15 +30,16 @@ public class Menu {
     }
 
     private static void createStaticArray() {
-        String[] thisIsAStringArray = new String[5];
+        String[] thisIsAStringArray = new String[6];
         thisIsAStringArray[0] = "asd";
         thisIsAStringArray[1] = "asdd";
         thisIsAStringArray[2] = "fre";
         thisIsAStringArray[3] = "glk";
         thisIsAStringArray[4] = "lkm";
-        thisIsAStringArray[4] = "sad";
+        thisIsAStringArray[5] = "sad";
         Finder finder = new Finder(thisIsAStringArray);
         finder.find(textToCheck());
+        System.out.println("The array is :" + Arrays.toString(thisIsAStringArray));
     }
 
     private static void createArrayManualy() {
@@ -50,6 +52,7 @@ public class Menu {
         }
         Finder finder = new Finder(strings);
         finder.find(textToCheck());
+        System.out.println("The array is :" + Arrays.toString(strings));
     }
 
     private static void createArrayAutomaticaly() {
@@ -62,6 +65,7 @@ public class Menu {
         }
         Finder finder = new Finder(strings);
         finder.find(textToCheck());
+        System.out.println("The array is :" + Arrays.toString(strings));
     }
 
     private static int arraySize() {
@@ -72,7 +76,7 @@ public class Menu {
 
     private static byte[] stringSize() {
         System.out.println("Give me the length of the string.");
-        byte[] array = new byte[Utils.checkingIntegers(1, 5000)];
+        byte[] array = new byte[Utils.checkingIntegers(0, 5000)];
         return array;
     }
 
