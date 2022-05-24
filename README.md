@@ -7,6 +7,9 @@ Java 11
 
 Maven 
 
+### To Build:
+Go with cd to the program folder and write:
+nvm install
 
 ###  First way: 
 
@@ -21,10 +24,6 @@ Go with cd to the program folder and write:
 2) java CodingApplication
 
 After you will see the menu of the project
-
-### To Build:
-Go with cd to the program folder and write:
-nvm install
 
 ### To run the tests:
 Go with cd to the program folder and write:
