@@ -7,15 +7,30 @@ Java 11
 
 Maven 
 
-IDEA(IntelliJ , Eclipse, Netbeans etc)
 
+###  First way: 
 
-To build the projects and run the tests you need to open the terminal go to the file project and run :
-mvn install
+You will need an IDEA(IntelliJ , Eclipse, Netbeans etc).
 
-To run the tests :mvn test
+Download any Idea and build and run the project.
 
-## Before you run the application make sure that you have done the build step.
+### Second Way:
+Open terminal
+Go with cd to the program folder and write:
+1) cd S4DXScriptApp
+2) java S4DXCodingChallengeApplication
+
+After you will see the menu of the project
+
+### To Build:
+Go with cd to the program folder and write:
+nvm install
+
+### To run the tests:
+Go with cd to the program folder and write:
+nvm test
+
+## Enjoy it!
 
 
 
