@@ -38,8 +38,8 @@ public class Menu {
         thisIsAStringArray[4] = "lkm";
         thisIsAStringArray[5] = "sad";
         Finder finder = new Finder(thisIsAStringArray);
-        finder.find(textToCheck());
         System.out.println("The array is :" + Arrays.toString(thisIsAStringArray));
+        finder.find(textToCheck());
     }
 
     private static void createArrayManualy() {
@@ -51,8 +51,8 @@ public class Menu {
             strings[i] = s;
         }
         Finder finder = new Finder(strings);
-        finder.find(textToCheck());
         System.out.println("The array is :" + Arrays.toString(strings));
+        finder.find(textToCheck());
     }
 
     private static void createArrayAutomaticaly() {
@@ -64,8 +64,8 @@ public class Menu {
             strings[i] = generatedString;
         }
         Finder finder = new Finder(strings);
-        finder.find(textToCheck());
         System.out.println("The array is :" + Arrays.toString(strings));
+        finder.find(textToCheck());
     }
 
     private static int arraySize() {

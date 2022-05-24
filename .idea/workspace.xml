@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b647facb-0022-4916-b4e6-550c9264aa92" name="Changes" comment="S4DX">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FinderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FinderTest">
+  <component name="RunManager" selected="JUnit.UtilsTest.TestCheckingIntegersSuccuess">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -99,16 +96,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinderTest.TestFindNullPointerException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="S4DXCodingChallenge" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FinderTest" />
-      <option name="METHOD_NAME" value="TestFindNullPointerException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FinderTest.TestFindSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="S4DXCodingChallenge" />
       <option name="PACKAGE_NAME" value="" />
@@ -119,13 +106,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UtilsTest.TestCheckingIntegersSuccuess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="S4DXCodingChallenge" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UtilsTest" />
+      <option name="METHOD_NAME" value="TestCheckingIntegersSuccuess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UtilsTest.TestCheckingIntegersSuccuess" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FinderTest" />
         <item itemvalue="JUnit.FinderTest.TestFindSuccess" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FinderTest.TestFindNotFoundWord" />
-        <item itemvalue="JUnit.FinderTest.TestFindNullPointerException" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +165,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653383818483</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="S4DX">
+      <created>1653384520216</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653384520216</updated>
+    </task>
+    <task id="LOCAL-00006" summary="S4DX">
+      <created>1653384576443</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653384576443</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,9 +201,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="S4DX" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pom_xml$FinderTest_TestFindSuccess.ic" NAME="FinderTest.TestFindSuccess Coverage Results" MODIFIED="1653382427092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/pom_xml$FinderTest_TestFindSuccess.ic" NAME="FinderTest.TestFindSuccess Coverage Results" MODIFIED="1653384357404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/pom_xml$FinderTest_TestFindNotFoundWord.ic" NAME="FinderTest.TestFindNotFoundWord Coverage Results" MODIFIED="1653382380900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/pom_xml$FinderTest_findNotFoundWordSuccessTest1.ic" NAME="FinderTest.findNotFoundWordSuccessTest1 Coverage Results" MODIFIED="1653381746214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/pom_xml$FinderTest_findFailTest.ic" NAME="FinderTest.findFailTest Coverage Results" MODIFIED="1653382001869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/pom_xml$FinderTest.ic" NAME="FinderTest Coverage Results" MODIFIED="1653384375198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

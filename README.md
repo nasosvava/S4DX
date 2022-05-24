@@ -15,3 +15,8 @@ mvn install
 
 To run the tests :mvn test
 
+## Before you run the application make sure that you have done the build step.
+
+
+
+
