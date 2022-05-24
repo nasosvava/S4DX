@@ -1,4 +1,10 @@
 # S4DX
+## About
+
+ This program  accepts an array of strings in the constructor. The class exposes a
+`find` function that accepts a string. The function will return all strings from the array that contains
+the exact same characters as the string passed into it. The order of the characters in the strings is
+not relevant
 
 ## Requirements and how to run the application:
 To run the application please make sure that you have installed the following:
