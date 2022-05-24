@@ -15,7 +15,6 @@ public class Finder {
      * @return result
      */
     protected LinkedList<String> find(String charsToFind){
-
             if(this.arrayOfStrings !=  null){
                 LinkedList<String> result  = new LinkedList<>();
                 for(String s : this.arrayOfStrings){
@@ -25,6 +24,8 @@ public class Finder {
                 }
                 if(result.isEmpty()){
                     System.out.println("This word is not inside the array.");
+                }else{
+                    System.out.println("The word/s:" + result);
                 }
                 return result;
             }

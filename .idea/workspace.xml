@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b647facb-0022-4916-b4e6-550c9264aa92" name="Changes" comment="S4DX">
-      <change beforePath="$PROJECT_DIR$/S4DX_Coding_Challenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/S4DXCodingChallenge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Colour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Instructions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Finder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Finder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FinderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Finder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FinderTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -31,13 +46,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Nasos\Desktop\S4DX_Coding_Challenge\src" />
@@ -49,7 +63,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FinderTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -68,65 +82,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FinderTest.TestFindNotFoundWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="S4DXCodingChallenge" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FinderTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FinderTest.findNotFoundWordSuccessTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="S4DXCodingChallenge" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FinderTest" />
-      <option name="METHOD_NAME" value="findNotFoundWordSuccessTest" />
+      <option name="METHOD_NAME" value="TestFindNotFoundWord" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinderTest.findNotSuccessTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FinderTest.TestFindNullPointerException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="S4DXCodingChallenge" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FinderTest" />
-      <option name="METHOD_NAME" value="findNotSuccessTest" />
+      <option name="METHOD_NAME" value="TestFindNullPointerException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinderTest.findSuccessTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FinderTest.TestFindSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="S4DXCodingChallenge" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FinderTest" />
-      <option name="METHOD_NAME" value="findSuccessTest" />
+      <option name="METHOD_NAME" value="TestFindSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="FinderTest.findNotFoundWordSuccessTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="S4DXCodingChallenge" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="S4DXCodingChallenge" />
-      <option name="filePath" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FinderTest" />
+      <option name="METHOD_NAME" value="findNotFoundWordSuccessTest1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FinderTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.FinderTest.findNotFoundWordSuccessTest" />
-        <item itemvalue="JUnit.FinderTest.findNotSuccessTest" />
-        <item itemvalue="JUnit.FinderTest.findSuccessTest" />
+        <item itemvalue="JUnit.FinderTest.TestFindSuccess" />
+        <item itemvalue="JUnit.FinderTest.TestFindNotFoundWord" />
+        <item itemvalue="JUnit.FinderTest.TestFindNullPointerException" />
+        <item itemvalue="JUnit.FinderTest.findNotFoundWordSuccessTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -139,6 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653318262335</updated>
       <workItem from="1653326370813" duration="2222000" />
+      <workItem from="1653372581372" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="S4DX">
       <created>1653340786847</created>
@@ -154,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653341432987</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="S4DX">
+      <created>1653342516263</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653342516263</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,5 +184,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="S4DX" />
     <option name="LAST_COMMIT_MESSAGE" value="S4DX" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pom_xml$FinderTest_TestFindSuccess.ic" NAME="FinderTest.TestFindSuccess Coverage Results" MODIFIED="1653382427092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/pom_xml$FinderTest_TestFindNotFoundWord.ic" NAME="FinderTest.TestFindNotFoundWord Coverage Results" MODIFIED="1653382380900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/pom_xml$FinderTest_findNotFoundWordSuccessTest1.ic" NAME="FinderTest.findNotFoundWordSuccessTest1 Coverage Results" MODIFIED="1653381746214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/pom_xml$FinderTest_findFailTest.ic" NAME="FinderTest.findFailTest Coverage Results" MODIFIED="1653382001869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
