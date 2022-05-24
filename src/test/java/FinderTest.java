@@ -38,7 +38,7 @@ public class FinderTest {
     @DisplayName("Should find 2 values")
     void TestTwoValursFoundSuccess() {
         Finder finder = new Finder(thisIsAStringArray);
-        assertEquals(2, finder.find("DAS").length);
+        assertEquals(2, finder.find("das").length);
     }
 
 

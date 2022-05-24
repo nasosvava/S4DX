@@ -46,8 +46,8 @@ public class Finder {
      * @return boolean
      */
     private static boolean isExisting(String stringOfTheArray, String stringToCheck) {
-        char[] chars1 = stringOfTheArray.toLowerCase().toCharArray();
-        char[] chars2 = stringToCheck.toLowerCase().toCharArray();
+        char[] chars1 = stringOfTheArray.toCharArray();
+        char[] chars2 = stringToCheck.toCharArray();
         Arrays.sort(chars1);
         Arrays.sort(chars2);
         return Arrays.equals(chars1, chars2);
