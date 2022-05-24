@@ -1,6 +1,6 @@
 
 
-public class S4DXCodingChallengeApplication {
+public class CodingApplication {
     public static void main(String[] args) {
 
         Menu.choiceOfUserToDo();

@@ -6,6 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="b647facb-0022-4916-b4e6-550c9264aa92" name="Changes" comment="S4DX">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/S4DXScriptApp/Colour.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S4DXScriptApp/Finder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S4DXScriptApp/Instructions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S4DXScriptApp/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S4DXScriptApp/S4DXCodingChallengeApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/S4DXScriptApp/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Finder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Finder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/S4DXCodingChallengeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodingApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FinderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +66,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FinderTest.performanceTest">
+  <component name="RunManager" selected="Application.CodingApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -65,6 +74,13 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CodingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingApplication" />
+      <module name="S4DXCodingChallenge" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,41 +94,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinderTest.TestFindSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FinderTest.TestTwoValursFoundSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="S4DXCodingChallenge" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FinderTest" />
-      <option name="METHOD_NAME" value="TestFindSuccess" />
+      <option name="METHOD_NAME" value="TestTwoValursFoundSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinderTest.TestFindValuesSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FinderTest.testIfInputIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="S4DXCodingChallenge" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FinderTest" />
-      <option name="METHOD_NAME" value="TestFindValuesSuccess" />
+      <option name="METHOD_NAME" value="testIfInputIsEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinderTest.TestNoValuesFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FinderTest.testNoValuesFoundWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="S4DXCodingChallenge" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FinderTest" />
-      <option name="METHOD_NAME" value="TestNoValuesFound" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FinderTest.performanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="S4DXCodingChallenge" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FinderTest" />
-      <option name="METHOD_NAME" value="performanceTest" />
+      <option name="METHOD_NAME" value="testNoValuesFoundWord" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FinderTest.performanceTest" />
-        <item itemvalue="JUnit.FinderTest.TestFindValuesSuccess" />
-        <item itemvalue="JUnit.FinderTest.TestNoValuesFound" />
+        <item itemvalue="Application.CodingApplication" />
         <item itemvalue="JUnit.FinderTest" />
-        <item itemvalue="JUnit.FinderTest.TestFindSuccess" />
+        <item itemvalue="JUnit.FinderTest.TestTwoValursFoundSuccess" />
+        <item itemvalue="JUnit.FinderTest.testIfInputIsEmpty" />
+        <item itemvalue="JUnit.FinderTest.testNoValuesFoundWord" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653391332232</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="S4DX">
+      <created>1653412646982</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1653412646982</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +247,7 @@
     <SUITE FILE_PATH="coverage/pom_xml$FinderTest_TestFindSuccess.ic" NAME="FinderTest.TestFindSuccess Coverage Results" MODIFIED="1653384357404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/pom_xml$FinderTest_TestFindNotFoundWord.ic" NAME="FinderTest.TestFindNotFoundWord Coverage Results" MODIFIED="1653382380900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/pom_xml$FinderTest_findNotFoundWordSuccessTest1.ic" NAME="FinderTest.findNotFoundWordSuccessTest1 Coverage Results" MODIFIED="1653381746214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/nkp$FinderTest.ic" NAME="FinderTest Coverage Results" MODIFIED="1653401322089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/nkp$FinderTest.ic" NAME="FinderTest Coverage Results" MODIFIED="1653420933174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/pom_xml$FinderTest_findFailTest.ic" NAME="FinderTest.findFailTest Coverage Results" MODIFIED="1653382001869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/pom_xml$FinderTest.ic" NAME="FinderTest Coverage Results" MODIFIED="1653384375198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>

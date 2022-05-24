@@ -18,7 +18,7 @@ Download any Idea and build and run the project.
 Open terminal
 Go with cd to the program folder and write:
 1) cd S4DXScriptApp
-2) java S4DXCodingChallengeApplication
+2) java CodingApplication
 
 After you will see the menu of the project
 

@@ -20,11 +20,18 @@ public class FinderTest {
     }};
     @Test
     @DisplayName("Should throw an Exception")
-    void TestFindNullPointerException() {
+    void testFindNullPointerException() {
         String[] emptyArray = null;
         Finder finder = new Finder(emptyArray);
+        assertEquals(0, finder.find("lll").length);
+    }
+
+    @Test
+    @DisplayName("Input is null")
+    void testIfInputIsNull(){
+        Finder finder = new Finder(thisIsAStringArray);
         Assertions.assertThrows(NullPointerException.class, () -> {
-            finder.find("lll");
+            finder.find(null);
         });
     }
 
@@ -32,30 +39,22 @@ public class FinderTest {
     @DisplayName("Should find 2 values")
     void TestTwoValursFoundSuccess() {
         Finder finder = new Finder(thisIsAStringArray);
-        assertEquals(2, finder.find("DAS").size());
+        assertEquals(2, finder.find("DAS").length);
     }
 
 
     @Test
     @DisplayName("Should not find any values")
-    void TestNoValuesFoundWord() {
+    void testNoValuesFoundWord() {
         Finder finder = new Finder(thisIsAStringArray);
-        assertEquals(0, finder.find("LLL").size());
-    }
-
-
-    @Test
-    @DisplayName("Should find exactly")
-    void TestFindValuesSuccess(){
-        Finder finder = new Finder(thisIsAStringArray);
-       assertEquals( STRINGS, finder.find("das"));
+        assertEquals(0, finder.find("LLL").length);
     }
 
     @Test
     @DisplayName("Should not find any values")
-    void TestNoValuesFound(){
+    void testNoValuesFound(){
         Finder finder = new Finder(thisIsAStringArray);
-        assertEquals( 0, finder.find("lll").size());
+        assertEquals( 0, finder.find("lll").length);
     }
     @Test
     @DisplayName("This is performanse test")
