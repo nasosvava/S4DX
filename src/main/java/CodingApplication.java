@@ -6,6 +6,4 @@ public class CodingApplication {
         Menu.choiceOfUserToDo();
     }
 
-
-
 }

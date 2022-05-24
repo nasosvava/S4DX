@@ -5,16 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b647facb-0022-4916-b4e6-550c9264aa92" name="Changes" comment="S4DX">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/S4DXScriptApp/Colour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/S4DXScriptApp/Finder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/S4DXScriptApp/Instructions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/S4DXScriptApp/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/S4DXScriptApp/S4DXCodingChallengeApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/S4DXScriptApp/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Finder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Finder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/S4DXCodingChallengeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodingApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FinderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +56,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.CodingApplication">
+  <component name="RunManager" selected="JUnit.FinderTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -126,8 +116,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CodingApplication" />
         <item itemvalue="JUnit.FinderTest" />
+        <item itemvalue="Application.CodingApplication" />
         <item itemvalue="JUnit.FinderTest.TestTwoValursFoundSuccess" />
         <item itemvalue="JUnit.FinderTest.testIfInputIsEmpty" />
         <item itemvalue="JUnit.FinderTest.testNoValuesFoundWord" />
@@ -222,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653412646982</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="S4DX">
+      <created>1653421446289</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1653421446289</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -18,11 +18,11 @@ public class Finder {
     protected String[] find(String charsToFind) {
         LinkedList<String> result = new LinkedList<>();
         if (this.arrayOfStrings == null) {
-            System.out.println(Colour.TEXT_RED + "The array is empty"+Colour.TEXT_RESET);
+            System.out.println(Colour.TEXT_RED + "The array is empty" + Colour.TEXT_RESET);
             return result.toArray(new String[0]);
         }
         if (charsToFind.isEmpty()) {
-            System.out.println(Colour.TEXT_RED+"The input is empty"+Colour.TEXT_RESET);
+            System.out.println(Colour.TEXT_RED + "The input is empty" + Colour.TEXT_RESET);
             return result.toArray(new String[0]);
         }
         for (String s : this.arrayOfStrings) {
@@ -31,7 +31,7 @@ public class Finder {
             }
         }
         if (result.isEmpty()) {
-            System.out.println(Colour.TEXT_RED+"This word is not inside the array."+Colour.TEXT_RESET);
+            System.out.println(Colour.TEXT_RED + "This word is not inside the array." + Colour.TEXT_RESET);
         } else {
             System.out.println("The word/s:" + result);
         }
