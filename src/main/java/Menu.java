@@ -21,6 +21,7 @@ public class Menu {
                     break;
                 case 3:
                     createStaticArray();
+                    break;
                 case 0:
                     quit = true;
                     break;
