@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class UserMenu {
 
-    public static void choiceOfUserToDo() throws EmptyArrayException {
+    public static void choiceOfUserToDo()  {
 
         boolean quit = false;
         while (!quit) {
@@ -30,7 +30,7 @@ public class UserMenu {
         }
     }
 
-    private static void createStaticArray() throws EmptyArrayException {
+    private static void createStaticArray()  {
         String[] thisIsAStringArray = new String[6];
         thisIsAStringArray[0] = "asd";
         thisIsAStringArray[1] = "asdd";
@@ -43,7 +43,7 @@ public class UserMenu {
         finder.find(textToCheck());
     }
 
-    private static void createArrayManualy() throws EmptyArrayException {
+    private static void createArrayManualy()  {
         String[] strings = new String[arraySize()];
         for (int i = 0; i < strings.length; i++) {
             System.out.println("Give the word");
@@ -73,7 +73,7 @@ public class UserMenu {
         return s;
     }
 
-    private static void createArrayAutomaticaly() throws EmptyArrayException {
+    private static void createArrayAutomaticaly()  {
         String[] strings = new String[arraySize()];
         int stringsLength = strings.length;
 

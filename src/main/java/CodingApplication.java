@@ -1,5 +1,5 @@
 public class CodingApplication {
-    public static void main(String[] args) throws EmptyArrayException {
+    public static void main(String[] args)  {
 
         UserMenu.choiceOfUserToDo();
     }
