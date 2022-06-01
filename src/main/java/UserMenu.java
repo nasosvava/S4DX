@@ -47,23 +47,43 @@ public class UserMenu {
         String[] strings = new String[arraySize()];
         for (int i = 0; i < strings.length; i++) {
             System.out.println("Give the word");
-            Scanner myObj = new Scanner(System.in);
-            String s = myObj.nextLine();
-            strings[i] = s;
+            strings[i] = validatoNotEmptyString(setString());
         }
         Finder finder = new Finder(strings);
         System.out.println("The array is :" + Arrays.toString(strings));
         finder.find(textToCheck());
     }
 
+    private static String validatoNotEmptyString(String s){
+        boolean quit = false;
+        while (!quit){
+            if(s == null || s.isEmpty()){
+                System.out.println("The string cant be empty.");
+               s = setString();
+            }else{
+                quit=true;
+            }
+        }
+        return s;
+    }
+
+    private static String setString(){
+        Scanner myObj = new Scanner(System.in);
+        String s = myObj.nextLine();
+        return s;
+    }
+
     private static void createArrayAutomaticaly() throws EmptyArrayException {
         String[] strings = new String[arraySize()];
-        for (int i = 0; i < strings.length; i++) {
+        int stringsLength = strings.length;
+
+        for (int i = 0; i < stringsLength; i++) {
             byte[] array = stringSize();
             new Random().nextBytes(array);
             String generatedString = new String(array, StandardCharsets.UTF_8);
             strings[i] = generatedString;
         }
+
         Finder finder = new Finder(strings);
         System.out.println("The array is :" + Arrays.toString(strings));
         finder.find(textToCheck());

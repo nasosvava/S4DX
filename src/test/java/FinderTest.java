@@ -63,6 +63,7 @@ public class FinderTest {
     @Test
     @DisplayName("This is performanse test")
     void performanceTest(){
+        long start2 = System.currentTimeMillis();
         String[] strings = new String[9999999];
 
             for (int i = 0; i < strings.length ; i++) {
@@ -77,7 +78,8 @@ public class FinderTest {
             Finder finder = new Finder(strings);
             finder.find("ksm");
         });
-
+        long end2 = System.currentTimeMillis();
+        System.out.println("Elapsed Time in milli seconds: "+ (end2-start2));
     }
 
 }

@@ -10,6 +10,7 @@ public class Finder {
 
 
     public String[] find(String charsToFind) throws EmptyArrayException {
+
         checksTheExceptions(charsToFind);
         checksIfArrayIsEmpty();
         return reutrnResultOfFoundWords(charsToFind);
@@ -24,7 +25,7 @@ public class Finder {
     private String[] reutrnResultOfFoundWords(String charsToFind) {
         LinkedList<String> result = new LinkedList<>();
         for (String s : this.arrayOfStrings) {
-            if (s.equals(charsToFind) || ((s.length() == charsToFind.length()) && isExisting(s, charsToFind))) {
+            if (isExisting(s, charsToFind)) {
                 result.add(s);
             }
         }
@@ -86,14 +87,28 @@ public class Finder {
      * Method checks if the char of 2 strings is the same.
      *
      * @param stringOfTheArray Word inside the array
-     * @param stringToCheck User Input
+     * @param stringToCheck    User Input
      * @return boolean
      */
     private static boolean isExisting(String stringOfTheArray, String stringToCheck) {
+        // Get lengths of both strings
+        int stringOfTheArrayLenght = stringOfTheArray.length();
+        int stringToCheckLenght = stringToCheck.length();
+
+        // If length of both strings is not same,
+        // then they cannot be anagram
+        if (stringOfTheArrayLenght != stringToCheckLenght) {
+            return false;
+        }
+        //Make the string array chars
         char[] chars1 = stringOfTheArray.toCharArray();
         char[] chars2 = stringToCheck.toCharArray();
+        // Sort both strings
         Arrays.sort(chars1);
         Arrays.sort(chars2);
+
         return Arrays.equals(chars1, chars2);
     }
+
+
 }
