@@ -3,9 +3,9 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Menu {
+public class UserMenu {
 
-    public static void choiceOfUserToDo() {
+    public static void choiceOfUserToDo() throws EmptyArrayException {
 
         boolean quit = false;
         while (!quit) {
@@ -30,7 +30,7 @@ public class Menu {
         }
     }
 
-    private static void createStaticArray() {
+    private static void createStaticArray() throws EmptyArrayException {
         String[] thisIsAStringArray = new String[6];
         thisIsAStringArray[0] = "asd";
         thisIsAStringArray[1] = "asdd";
@@ -43,7 +43,7 @@ public class Menu {
         finder.find(textToCheck());
     }
 
-    private static void createArrayManualy() {
+    private static void createArrayManualy() throws EmptyArrayException {
         String[] strings = new String[arraySize()];
         for (int i = 0; i < strings.length; i++) {
             System.out.println("Give the word");
@@ -56,7 +56,7 @@ public class Menu {
         finder.find(textToCheck());
     }
 
-    private static void createArrayAutomaticaly() {
+    private static void createArrayAutomaticaly() throws EmptyArrayException {
         String[] strings = new String[arraySize()];
         for (int i = 0; i < strings.length; i++) {
             byte[] array = stringSize();
@@ -71,13 +71,13 @@ public class Menu {
 
     private static int arraySize() {
         System.out.println("Give me the size of the array.");
-        int size = Utils.checkingIntegers(1, 50000);
+        int size = Utils.checkingIntegers(1, 50);
         return size;
     }
 
     private static byte[] stringSize() {
         System.out.println("Give me the length of the string.");
-        byte[] array = new byte[Utils.checkingIntegers(0, 5000)];
+        byte[] array = new byte[Utils.checkingIntegers(0, 50)];
         return array;
     }
 

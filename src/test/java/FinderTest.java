@@ -13,30 +13,34 @@ public class FinderTest {
 
     private static final  String[] thisIsAStringArray = {"asd","asdd","fre","glk","lkm","sad"};
 
-    private static final LinkedList<String> STRINGS = new LinkedList<>() {{
-        add("asd");
-        add("sad");
-    }};
     @Test
     @DisplayName("Should throw an Exception")
     void testFindNullPointerException() {
         String[] emptyArray = null;
         Finder finder = new Finder(emptyArray);
-        assertEquals(0, finder.find("lll").length);
+        Assertions.assertThrows(NullPointerException.class, () -> finder.find("null"));
+
+    }
+
+    @Test
+    @DisplayName("Should throw an Exception")
+    void testFindEmptyArrayException() {
+        String[] emptyArray = {};
+        Finder finder = new Finder(emptyArray);
+        Assertions.assertThrows(EmptyArrayException.class, () -> finder.find("null"));
+
     }
 
     @Test
     @DisplayName("Input is null")
     void testIfInputIsNull(){
         Finder finder = new Finder(thisIsAStringArray);
-        Assertions.assertThrows(NullPointerException.class, () -> {
-            finder.find(null);
-        });
+        Assertions.assertThrows(NullPointerException.class, () -> finder.find(null));
     }
 
     @Test
     @DisplayName("Should find 2 values")
-    void TestTwoValursFoundSuccess() {
+    void TestTwoValursFoundSuccess() throws EmptyArrayException {
         Finder finder = new Finder(thisIsAStringArray);
         assertEquals(2, finder.find("das").length);
     }
@@ -44,17 +48,18 @@ public class FinderTest {
 
     @Test
     @DisplayName("Should not find any values")
-    void testNoValuesFoundWord() {
+    void testNoValuesFoundWord() throws EmptyArrayException {
         Finder finder = new Finder(thisIsAStringArray);
         assertEquals(0, finder.find("LLL").length);
     }
 
     @Test
     @DisplayName("Should not find any values")
-    void testNoValuesFound(){
+    void testNoValuesFound() throws EmptyArrayException {
         Finder finder = new Finder(thisIsAStringArray);
         assertEquals( 0, finder.find("lll").length);
     }
+
     @Test
     @DisplayName("This is performanse test")
     void performanceTest(){
@@ -70,7 +75,7 @@ public class FinderTest {
         assertTimeout(Duration.ofSeconds(1), () -> {
 
             Finder finder = new Finder(strings);
-            finder.find("das");
+            finder.find("ksm");
         });
 
     }

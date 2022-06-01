@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Utils {
 
-    private static Scanner scanner = new Scanner(System.in);
+    private final static Scanner scanner = new Scanner(System.in);
 
     /**
      * We check if the integers are integers or the user did a mistake. With a
@@ -11,13 +11,10 @@ public class Utils {
      * @return integer
      */
     public static int checkingIntegers() {
-
         int number;
-
         while (true) {
             try {
                 number = Integer.parseInt(scanner.next());
-
                 break;
             } catch (NumberFormatException nfe) {
                 System.out.println(Colour.TEXT_RED + "Please give only number." + Colour.TEXT_RESET);
@@ -30,12 +27,11 @@ public class Utils {
      * We check if the integers are integers or the user did a mistake. With 2
      * parameters of min and max.
      *
-     * @param min
-     * @param max
+     * @param min Minimum number
+     * @param max Maximum number
      * @return integer
      */
     public static int checkingIntegers(int min, int max) {
-
         int result = Utils.checkingIntegers();
         boolean quit = false;
         while (!quit) {

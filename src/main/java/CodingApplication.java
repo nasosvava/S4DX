@@ -1,9 +1,7 @@
-
-
 public class CodingApplication {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws EmptyArrayException {
 
-        Menu.choiceOfUserToDo();
+        UserMenu.choiceOfUserToDo();
     }
 
 }
