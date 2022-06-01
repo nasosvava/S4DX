@@ -40,20 +40,13 @@ public class Finder {
      * @return boolean
      */
     private static boolean isExisting(String stringOfTheArray, String stringToCheck) {
-        // Get lengths of both strings
         int stringOfTheArrayLenght = stringOfTheArray.length();
         int stringToCheckLenght = stringToCheck.length();
-
-        // If length of both strings is not same,
-        // then they cannot be anagram
         if (stringOfTheArrayLenght != stringToCheckLenght) {
             return false;
         }
-
-        //Make the string array chars
         char[] chars1 = stringOfTheArray.toCharArray();
         char[] chars2 = stringToCheck.toCharArray();
-        // Sort both strings
         Arrays.sort(chars1);
         Arrays.sort(chars2);
 
